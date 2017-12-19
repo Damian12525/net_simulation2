@@ -1,0 +1,14 @@
+//
+// Created by damian on 19.12.17.
+//
+
+#ifndef NET_SIMULATION_PACKAGEQUEUELIFO_H
+#define NET_SIMULATION_PACKAGEQUEUELIFO_H
+
+
+class PackageQueueLIFO {
+
+};
+
+
+#endif //NET_SIMULATION_PACKAGEQUEUELIFO_H

@@ -1,0 +1,14 @@
+//
+// Created by damian on 19.12.17.
+//
+
+#ifndef NET_SIMULATION_RECEIVERPREFERENCES_H
+#define NET_SIMULATION_RECEIVERPREFERENCES_H
+
+
+class ReceiverPreferences {
+
+};
+
+
+#endif //NET_SIMULATION_RECEIVERPREFERENCES_H

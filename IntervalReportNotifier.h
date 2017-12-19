@@ -1,0 +1,14 @@
+//
+// Created by damian on 19.12.17.
+//
+
+#ifndef NET_SIMULATION_INTERVALREPORTNOTIFIER_H
+#define NET_SIMULATION_INTERVALREPORTNOTIFIER_H
+
+
+class IntervalReportNotifier {
+
+};
+
+
+#endif //NET_SIMULATION_INTERVALREPORTNOTIFIER_H
