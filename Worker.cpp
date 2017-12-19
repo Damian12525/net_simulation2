@@ -28,6 +28,6 @@ ReceiverType Worker::getReceiverType() {
     return ReceiverType();
 }
 
-int Worker::getId() {
-    return 0;
+ElementID Worker::getId() {
+    return nullptr;
 }

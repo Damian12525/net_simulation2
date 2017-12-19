@@ -9,11 +9,12 @@
 #include "IPackageQueue.h"
 #include "Package.h"
 #include "ReceiverType.h"
+#include "ElementID.h"
 
 class Worker
 {
 private:
-    int workerID;
+    ElementID workerID;
     int processingTime;
     enum class queueType{LIFO, FIFO};
 public:
@@ -29,7 +30,7 @@ public:
     TimeOffset getProcessingDuration();
     Time getProcessingStartTime();
     ReceiverType getReceiverType();
-    int getId();
+    ElementID getId();
 
 
 };

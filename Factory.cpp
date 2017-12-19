@@ -12,9 +12,7 @@ void Factory::addRamp(Ramp _ramp) {
 
 }
 
-void Factory::removeRamp(int ElementID) {
 
-}
 
 Worker *Factory::getWorkers() {
     return nullptr;
@@ -24,9 +22,7 @@ void Factory::addWorker(Worker _worker) {
 
 }
 
-void Factory::removeWorker(int ElementID) {
 
-}
 
 Storehouse *Factory::getStorehouses() {
     return nullptr;
@@ -36,6 +32,16 @@ void Factory::addStorehouse(Storehouse _storehouse) {
 
 }
 
-void Factory::removeStorehouse(int ElementID) {
+void Factory::removeStorehouse(ElementID _storehouseID) {
 
 }
+
+void Factory::removeWorker(ElementID _workerID) {
+
+}
+
+void Factory::removeRamp(ElementID _rampID) {
+
+}
+
+

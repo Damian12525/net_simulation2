@@ -8,6 +8,7 @@
 #include "Ramp.h"
 #include "Worker.h"
 #include "Storehouse.h"
+#include "ElementID.h"
 
 
 class Factory {
@@ -19,15 +20,15 @@ class Factory {
 public:
     Ramp* getRamps();
     void addRamp (Ramp _ramp);
-    void removeRamp (int ElementID);
+    void removeRamp (ElementID _rampID);
 
     Worker* getWorkers();
     void addWorker(Worker _worker);
-    void removeWorker (int ElementID);
+    void removeWorker (ElementID _workerID);
 
     Storehouse* getStorehouses();
     void addStorehouse(Storehouse _storehouse);
-    void removeStorehouse (int ElementID);
+    void removeStorehouse (ElementID _storehouseID);
 
 
 
