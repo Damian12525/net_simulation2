@@ -1,5 +1,13 @@
-//
-// Created by damian on 19.12.17.
-//
-
 #include "Package.h"
+
+Package::Package() {
+
+}
+
+Package::Package(ElementID _ID) {
+
+}
+
+ElementID Package::getId() {
+    return ElementID();
+}
