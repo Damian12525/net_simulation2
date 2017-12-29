@@ -2,15 +2,17 @@
 #define NET_SIMULATION_STOREHOUSE_H
 
 
-#include "ElementID.h"
+
 #include "IPackageDepot.h"
 #include "Package.h"
+#include "types.h"
 
 class Storehouse {
 
     ElementID id;
     IPackageDepot* depot;
 
+public:
     Storehouse(ElementID _id);
     void receivePackage(Package to_receive);
     Package* viewDepot();

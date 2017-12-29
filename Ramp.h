@@ -2,9 +2,7 @@
 #define NET_SIMULATION_RAMP_H
 
 
-#include "TimeOffset.h"
-#include "Time.h"
-#include "ElementID.h"
+#include "types.h"
 
 class Ramp {
     ElementID rampID;

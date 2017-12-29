@@ -20,7 +20,7 @@ class PackageQueue {
     void view(Package* _package_array);
     QueueType getQueueType();
     bool isEmpty();
-    bool size(); //wydaje mi sie, ze powinien byc int
+    int size(); //wydaje mi sie, ze powinien byc int
 
 };
 

@@ -2,11 +2,12 @@
 #define NET_SIMULATION_PACKAGE_H
 
 
-#include "ElementID.h"
+#include "types.h"
 
 class Package {
+
     ElementID id;
-    ElementID packageCounter; //U Kleczka podkreslone ??
+    int packageCounter; //U Kleczka podkreslone ??
 public:
     Package();
     Package(ElementID _ID);
@@ -14,5 +15,6 @@ public:
 
 };
 
+int Package::packageCounter = 0;
 
 #endif //NET_SIMULATION_PACKAGE_H

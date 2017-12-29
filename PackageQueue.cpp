@@ -1,6 +1,8 @@
 #include "PackageQueue.h"
 
 PackageQueue::PackageQueue(QueueType _type) {
+    _queueType = _type;
+
 
 }
 
@@ -17,14 +19,14 @@ void PackageQueue::view(Package *_package_array) {
 }
 
 QueueType PackageQueue::getQueueType() {
-    QueueType result;
-    return result;
+
+    return _queueType;
 }
 
 bool PackageQueue::isEmpty() {
-    return false;
+    return _queue.empty();
 }
 
-bool PackageQueue::size() {
-    return false;
+int PackageQueue::size() {
+    return _queue.size();
 }

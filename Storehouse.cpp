@@ -1,4 +1,5 @@
 #include "Storehouse.h"
+#include "types.h"
 
 Storehouse::Storehouse(ElementID _id) {
 
@@ -13,5 +14,5 @@ Package *Storehouse::viewDepot() {
 }
 
 ElementID Storehouse::getId() {
-    return ElementID();
+    return id;
 }

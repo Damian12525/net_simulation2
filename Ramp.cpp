@@ -5,6 +5,8 @@
 #include "Ramp.h"
 
 Ramp::Ramp(int _elementID, TimeOffset _interval) {
+    rampID = _elementID;
+    deliveryInterval = _interval;
 
 }
 
@@ -13,9 +15,9 @@ void Ramp::deliveryGoods(Time _time) {
 }
 
 ElementID Ramp::getId() {
-    return ElementID();
+    return rampID;
 }
 
 TimeOffset Ramp::getDeliveryInterval() {
-    return TimeOffset();
+    return deliveryInterval;
 }

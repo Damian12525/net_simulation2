@@ -17,17 +17,17 @@ void Worker::doWork() {
 }
 
 TimeOffset Worker::getProcessingDuration() {
-    return TimeOffset();
+    return processingDuration;
 }
 
 Time Worker::getProcessingStartTime() {
-    return Time();
+    return packageProcessingStartTime;
 }
 
 ReceiverType Worker::getReceiverType() {
-    return ReceiverType();
+    return nullptr;
 }
 
 ElementID Worker::getId() {
-    return nullptr;
+    return workerID;
 }

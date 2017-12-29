@@ -2,9 +2,7 @@
 #define NET_SIMULATION_QUEUETYPE_H
 
 
-enum class QueueType {
-
-};
+enum class QueueType { FIFO, LIFO};
 
 
 #endif //NET_SIMULATION_QUEUETYPE_H

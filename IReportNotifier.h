@@ -2,7 +2,8 @@
 #define NET_SIMULATION_IREPORTNOTIFIER_H
 
 
-#include "Time.h"
+
+#include "types.h"
 
 class IReportNotifier {
 
