@@ -12,7 +12,7 @@ public:
     void push(Package to_push);
     void pop(Package to_pop);
     bool empty();
-    bool size(); //int?
+    int size(); //int?
     Package* view(); //w schemacie od Kleczka Package[]
     QueueType getQueueType();
 

@@ -12,7 +12,7 @@ bool IPackageQueue::empty() {
     return false;
 }
 
-bool IPackageQueue::size() {
+int IPackageQueue::size() {
     return false;
 }
 
