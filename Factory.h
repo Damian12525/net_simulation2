@@ -16,15 +16,17 @@ class Factory {
 
 
 public:
-    Ramp* getRamps();
+    std::vector<Ramp> getRamps();
     void addRamp (Ramp _ramp);
     void removeRamp (ElementID _rampID);
 
-    Worker* getWorkers();
+    std::vector<Worker> getWorkers();
     void addWorker(Worker _worker);
     void removeWorker (ElementID _workerID);
 
-    Storehouse* getStorehouses();
+
+    //Usuniecie elementu jest trywialne, ale trzeba sie zajac w tym miejscu "ślepymi połączeniami"
+    std::vector<Storehouse> getStorehouses();
     void addStorehouse(Storehouse _storehouse);
     void removeStorehouse (ElementID _storehouseID);
 

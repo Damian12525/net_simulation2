@@ -1,31 +1,31 @@
 #include "Factory.h"
 
-Ramp *Factory::getRamps() {
-    return nullptr;
+std::vector<Ramp> Factory::getRamps() {
+    return ramps;
 }
 
 void Factory::addRamp(Ramp _ramp) {
-
+    ramps.push_back(_ramp);
 }
 
 
 
-Worker *Factory::getWorkers() {
-    return nullptr;
+std::vector<Worker> Factory::getWorkers() {
+    return workers;
 }
 
 void Factory::addWorker(Worker _worker) {
-
+    workers.push_back(_worker);
 }
 
 
 
-Storehouse *Factory::getStorehouses() {
-    return nullptr;
+std::vector<Storehouse> Factory::getStorehouses() {
+    return storehouses;
 }
 
 void Factory::addStorehouse(Storehouse _storehouse) {
-
+    storehouses.push_back(_storehouse);
 }
 
 void Factory::removeStorehouse(ElementID _storehouseID) {
