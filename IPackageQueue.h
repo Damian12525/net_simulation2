@@ -2,10 +2,11 @@
 #define NET_SIMULATION_IPACKAGEQUEUE_H
 
 
-#include "Package.h"
+
 #include "QueueType.h"
 #include "IPackageDepot.h"
-#include "PackageQueue.h"
+#include "Package.h"
+
 
 class IPackageQueue : public IPackageDepot
 {

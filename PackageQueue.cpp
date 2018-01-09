@@ -30,9 +30,6 @@ PackageQueue::PackageQueue(QueueType _queueType) : queueType(_queueType) {
 
 
 
-
-
-
 bool PackageQueue::isEmpty() {
     return _deque.empty();
 }
@@ -46,12 +43,16 @@ void PackageQueue::push(Package _package) {
     _deque.push_back(_package);
 }
 
-std::deque PackageQueue::view() {
+std::deque<Package> PackageQueue::view() {
     return _deque;
 }
 
 QueueType PackageQueue::getQueueType() {
     return queueType;
+}
+
+Package PackageQueue::pop() {
+    return _popFunction();
 }
 
 

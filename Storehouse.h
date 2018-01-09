@@ -4,10 +4,9 @@
 
 
 #include <memory>
-#include "IPackageDepot.h"
-#include "Package.h"
 #include "types.h"
 #include "IPackageReceiver.h"
+#include "IPackageDepot.h"
 
 class Storehouse : public IPackageReceiver {
 

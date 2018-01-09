@@ -2,8 +2,10 @@
 #define NET_SIMULATION_IPACKAGERECEIVER_H
 
 
-#include "Package.h"
+
 #include "ReceiverType.h"
+#include "types.h"
+#include "Package.h"
 
 
 class IPackageReceiver {

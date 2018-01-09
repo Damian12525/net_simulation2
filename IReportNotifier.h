@@ -8,7 +8,7 @@
 class IReportNotifier {
 
 public:
-    virtual bool shouldGenerateReport(Time);
+    virtual bool shouldGenerateReport(Time) = 0;
 
 
 };

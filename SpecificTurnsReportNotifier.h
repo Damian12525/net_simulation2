@@ -12,7 +12,7 @@ class SpecificTurnsReportNotifier : public IReportNotifier{
 public:
     SpecificTurnsReportNotifier(std::set<Time> _turns);
 
-    virtual bool shouldGenerateReport(Time _time)= 0;
+    bool shouldGenerateReport(Time _time) override;
 
 };
 

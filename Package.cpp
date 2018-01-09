@@ -2,13 +2,13 @@
 
 Package::Package() {
 
-    packageCounter++;
+    //packageCounter++;
 
 }
 
 Package::Package(ElementID _ID) {
     id = _ID;
-    packageCounter++;
+    //packageCounter++;
 
 }
 

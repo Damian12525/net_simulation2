@@ -3,8 +3,8 @@
 
 
 #include <queue>
-#include "Package.h"
-#include "IPackageQueue.h"
+
+class Package;
 
 class IPackageDepot{
 
