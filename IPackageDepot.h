@@ -12,13 +12,13 @@ class IPackageDepot{
 public:
     IPackageDepot() = default;
 
-    virtual void push(Package _package)=0;
+    virtual void push(Package _package) = 0;
 
-    virtual bool empty() = 0;
+    virtual bool isEmpty() = 0;
 
-    virtual int size()= 0;
+    virtual int size() = 0;
 
-//    virtual std::deque view();
+    virtual std::deque view()= 0;
 
 };
 

@@ -17,7 +17,15 @@ void PackageQueue::push(Package _package) {
     _deque.push_back(_package);
 }
 
+std::deque PackageQueue::view() {
+    return _deque;
+}
 
-PackageQueue::PackageQueue() {}
+
+
+
+
+
+
 
 

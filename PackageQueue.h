@@ -19,21 +19,16 @@ protected:
 
 public:
 
-    PackageQueue (QueueType _type);
 
-    PackageQueue();
 
     int size();
-
-
-
-
     bool isEmpty();
 
     virtual QueueType getQueueType() = 0;
 
     void push(Package _package);
     virtual Package pop() = 0;
+    virtual std::deque view();
 };
 
 
