@@ -3,14 +3,16 @@
 
 
 #include <set>
-#include "Time.h"
+#include "types.h"
+#include "IReportNotifier.h"
 
-class SpecificTurnsReportNotifier {
+class SpecificTurnsReportNotifier : public IReportNotifier{
     std::set<Time> turns;
 
 public:
     SpecificTurnsReportNotifier(std::set<Time> _turns);
-    bool shouldGenerateReport(Time _time);
+
+    virtual bool shouldGenerateReport(Time _time)= 0;
 
 };
 

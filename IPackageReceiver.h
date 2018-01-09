@@ -9,9 +9,10 @@
 class IPackageReceiver {
 
 public:
-    void receivePackage(Package to_receive);
-    Package* viewDepot(); //Package[]
-    ReceiverType getReceiverType();
+    virtual void receivePackage(Package to_receive);
+
+    virtual Package* viewDepot(); //Package[]
+    virtual ReceiverType getReceiverType();
     ElementID getID();
 
 

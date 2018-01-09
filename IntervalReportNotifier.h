@@ -2,16 +2,17 @@
 #define NET_SIMULATION_INTERVALREPORTNOTIFIER_H
 
 
-#include "TimeOffset.h"
-#include "Time.h"
+#include "types.h"
+#include "IReportNotifier.h"
 
-class IntervalReportNotifier {
+class IntervalReportNotifier : public IReportNotifier{
     TimeOffset interval;
 
 public:
 
     IntervalReportNotifier (TimeOffset _interval);
-    bool shouldGenerateReport (Time _time);
+
+    virtual bool shouldGenerateReport (Time _time)= 0;
 
 };
 

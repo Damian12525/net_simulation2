@@ -6,8 +6,9 @@
 #include <functional>
 #include "QueueType.h"
 #include "Package.h"
+#include "IPackageQueue.h"
 
-class PackageQueue {
+class PackageQueue : public IPackageQueue {
 
 
     QueueType _queueType;
@@ -15,13 +16,13 @@ class PackageQueue {
     std::function<Package()> _popFunction;
 
     PackageQueue (QueueType _type);
-    void push(Package _package);
-    void pop(Package _package);
     void view(Package* _package_array);
-    QueueType getQueueType();
     bool isEmpty();
-    int size(); //wydaje mi sie, ze powinien byc int
 
+    virtual QueueType getQueueType()= 0;
+    virtual int size()= 0;
+    virtual void push(Package _package)= 0;
+    virtual void pop(Package _package)= 0;
 };
 
 

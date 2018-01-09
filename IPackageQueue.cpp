@@ -16,7 +16,7 @@ int IPackageQueue::size() {
     return false;
 }
 
-Package *IPackageQueue::view() {
+std::queue IPackageQueue::view() {
     return nullptr;
 }
 

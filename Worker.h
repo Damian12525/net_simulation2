@@ -5,14 +5,15 @@
 
 
 
-#include "Time.h"
+
 #include "IPackageQueue.h"
 #include "Package.h"
 #include "ReceiverType.h"
 
 #include "types.h"
+#include "IPackageReceiver.h"
 
-class Worker
+class Worker : public IPackageReceiver
 {
 private:
     ElementID workerID;
@@ -22,14 +23,14 @@ private:
 
 public:
     Worker(int ElementID, TimeOffset, IPackageQueue* _packageQueue);
-    void receivePackage(Package _package);
-    Package* viewDepot();
     void doWork();
     TimeOffset getProcessingDuration();
     Time getProcessingStartTime();
-    ReceiverType getReceiverType();
     ElementID getId();
 
+    virtual void receivePackage(Package _package)= 0;
+    virtual Package* viewDepot()= 0;
+    virtual ReceiverType getReceiverType()= 0;
 
 };
 

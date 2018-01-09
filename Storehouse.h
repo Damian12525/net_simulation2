@@ -6,18 +6,20 @@
 #include "IPackageDepot.h"
 #include "Package.h"
 #include "types.h"
+#include "IPackageReceiver.h"
 
-class Storehouse {
+class Storehouse : public IPackageReceiver {
 
     ElementID id;
     IPackageDepot* depot;
 
 public:
     Storehouse(ElementID _id);
-    void receivePackage(Package to_receive);
-    Package* viewDepot();
     ElementID getId();
 
+    virtual void receivePackage(Package to_receive)= 0;
+
+    virtual Package* viewDepot()= 0;
 
 };
 

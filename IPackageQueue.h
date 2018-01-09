@@ -4,17 +4,21 @@
 
 #include "Package.h"
 #include "QueueType.h"
+#include "IPackageDepot.h"
 
-class IPackageQueue {
+class IPackageQueue : public IPackageDepot
+{
 
 
 public:
-    void push(Package to_push);
-    void pop(Package to_pop);
+    virtual void push(Package to_push);
+
+    virtual void pop(Package to_pop);
     bool empty();
-    int size(); //int?
-    Package* view(); //w schemacie od Kleczka Package[]
-    QueueType getQueueType();
+
+    virtual int size();
+    std::queue view();
+    virtual QueueType getQueueType();
 
 
 };
