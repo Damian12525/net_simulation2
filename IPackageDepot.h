@@ -10,7 +10,7 @@ class IPackageDepot {
     void push(Package _package);
     bool empty();
     int size();
-    std::queue view();
+    std::deque view();
 
 };
 

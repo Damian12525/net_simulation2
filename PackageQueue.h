@@ -12,7 +12,7 @@ class PackageQueue : public IPackageQueue {
 
 
     QueueType _queueType;
-    std::queue _queue;
+    std::deque _deque;   // double ended queue
     std::function<Package()> _popFunction;
 
     PackageQueue (QueueType _type);

@@ -16,7 +16,7 @@ int IPackageQueue::size() {
     return false;
 }
 
-std::queue IPackageQueue::view() {
+std::deque IPackageQueue::view() {
     return nullptr;
 }
 

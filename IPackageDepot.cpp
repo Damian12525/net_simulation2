@@ -12,6 +12,6 @@ int IPackageDepot::size() {
     return 0;
 }
 
-std::queue IPackageDepot::view() {
+std::deque IPackageDepot::view() {
     return std::queue();
 }

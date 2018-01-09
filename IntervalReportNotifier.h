@@ -12,6 +12,7 @@ public:
 
     IntervalReportNotifier (TimeOffset _interval);
 
+
     virtual bool shouldGenerateReport (Time _time)= 0;
 
 };

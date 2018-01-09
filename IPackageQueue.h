@@ -17,7 +17,7 @@ public:
     bool empty();
 
     virtual int size();
-    std::queue view();
+    std::deque view();
     virtual QueueType getQueueType();
 
 
