@@ -1,13 +1,13 @@
-//
-// Created by damian on 09.01.18.
-//
-
 #include "PackageQueueFIFO.h"
 
 QueueType PackageQueueFIFO::getQueueType() {
     return QueueType ::FIFO;
 }
 
-void PackageQueueFIFO::pop() {
+Package PackageQueueFIFO::pop() {
+    Package to_return = _deque.front();
+    _deque.pop_front();
+    return to_return;
+
 
 }

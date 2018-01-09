@@ -14,7 +14,7 @@ class IPackageQueue : public IPackageDepot
 public:
 
     virtual QueueType getQueueType() = 0;
-    virtual void pop(Package to_pop) = 0;
+    virtual Package pop() = 0;
 
     virtual void push(Package to_push) = 0;
     virtual bool isEmpty() = 0;

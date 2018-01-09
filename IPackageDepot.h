@@ -14,9 +14,9 @@ public:
 
     virtual void push(Package _package)=0;
 
-//    virtual bool empty();
+    virtual bool empty() = 0;
 
-//    virtual int size();
+    virtual int size()= 0;
 
 //    virtual std::deque view();
 

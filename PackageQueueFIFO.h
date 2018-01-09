@@ -3,13 +3,15 @@
 
 
 #include "QueueType.h"
+#include "Package.h"
+#include "PackageQueue.h"
 
-class PackageQueueFIFO {
+class PackageQueueFIFO : private PackageQueue {
 
 
     virtual QueueType getQueueType();
 
-    virtual void pop();
+    virtual Package pop();
 
 };
 

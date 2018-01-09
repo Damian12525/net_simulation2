@@ -4,6 +4,7 @@
 
 #include "PackageQueue.h"
 #include "QueueType.h"
+#include "Package.h"
 
 
 class PackageQueueLIFO : private PackageQueue {
@@ -13,7 +14,7 @@ public:
 
     virtual QueueType getQueueType();
 
-    virtual void pop();
+    virtual Package pop();
 
 };
 

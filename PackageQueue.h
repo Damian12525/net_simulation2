@@ -26,13 +26,14 @@ public:
     int size();
 
 
-    void view(Package* _package_array);
+
+
     bool isEmpty();
 
     virtual QueueType getQueueType() = 0;
 
     void push(Package _package);
-    virtual void pop(Package _package) = 0;
+    virtual Package pop() = 0;
 };
 
 
