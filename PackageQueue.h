@@ -1,34 +1,37 @@
 #ifndef NET_SIMULATION_PACKAGEQUEUE_H
 #define NET_SIMULATION_PACKAGEQUEUE_H
 
-
+#include "IPackageQueue.h"
 #include <queue>
 #include <functional>
 #include "QueueType.h"
 #include "Package.h"
-#include "IPackageQueue.h"
+
+
+
+
 
 class PackageQueue : private IPackageQueue {
 
 
 protected:
 
-    std::deque _deque;   // double ended queue
-
-    //std::function<Package()> _popFunction;
+    std::deque<Package> _deque;   // double ended queue
+    QueueType queueType;
+    std::function<Package()> _popFunction;
 
 public:
 
-
+    PackageQueue(QueueType _queueType);
 
     int size();
     bool isEmpty();
 
-    virtual QueueType getQueueType() = 0;
+    QueueType getQueueType();
 
     void push(Package _package);
-    virtual Package pop() = 0;
-    virtual std::deque view();
+    Package pop();
+    std::deque<Package> view();
 };
 
 

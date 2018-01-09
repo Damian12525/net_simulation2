@@ -22,3 +22,15 @@ Time Worker::getProcessingStartTime() {
 ElementID Worker::getId() {
     return workerID;
 }
+
+void Worker::receivePackage(Package _package) {
+    IPackageReceiver::receivePackage(_package);
+}
+
+Package *Worker::viewDepot() {
+    return IPackageReceiver::viewDepot();
+}
+
+ReceiverType Worker::getReceiverType() {
+    return ReceiverType ::WORKER;
+}

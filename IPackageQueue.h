@@ -19,7 +19,7 @@ public:
     virtual void push(Package to_push) = 0;
     virtual bool isEmpty() = 0;
     virtual int size()= 0;
-    virtual std::deque view()= 0;
+    virtual std::deque <Package> view()= 0;
 
 };
 

@@ -7,7 +7,7 @@
 class Package {
 
     ElementID id;
-    int packageCounter; //U Kleczka podkreslone ??
+    static int packageCounter; //U Kleczka podkreslone ??
 public:
     Package();
     Package(ElementID _ID);

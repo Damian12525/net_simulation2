@@ -12,16 +12,18 @@
 class Storehouse : public IPackageReceiver {
 
     ElementID id;
-    std::unique_ptr<IPackageDepot> depot;
+    IPackageDepot *depot;
+    //std::unique_ptr<IPackageDepot> depot;
 
 
 public:
-    Storehouse(ElementID _id);
-    ElementID getId();
+    explicit Storehouse(ElementID _id);
+    ElementID getId() override;
 
-    virtual void receivePackage(Package to_receive)= 0;
+    void receivePackage(Package to_receive) override;
 
-    virtual Package* viewDepot()= 0;
+    Package* viewDepot() override;
+    ReceiverType getReceiverType() override;
 
 };
 

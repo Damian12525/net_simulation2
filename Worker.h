@@ -29,9 +29,9 @@ public:
     Time getProcessingStartTime();
     ElementID getId();
 
-    virtual void receivePackage(Package _package)= 0;
-    virtual Package* viewDepot()= 0;
-    virtual ReceiverType getReceiverType()= 0;
+    void receivePackage(Package _package);
+    Package* viewDepot();
+    ReceiverType getReceiverType();
 
 };
 

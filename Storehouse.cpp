@@ -5,7 +5,7 @@ Storehouse::Storehouse(ElementID _id) {
 
     id = _id;
 
-    depot = new IPackageDepot();
+
 
 
 }
@@ -14,4 +14,16 @@ Storehouse::Storehouse(ElementID _id) {
 
 ElementID Storehouse::getId() {
     return id;
+}
+
+void Storehouse::receivePackage(Package to_receive) {
+    IPackageReceiver::receivePackage(to_receive);
+}
+
+Package *Storehouse::viewDepot() {
+    return nullptr;
+}
+
+ReceiverType Storehouse::getReceiverType() {
+    return ReceiverType :: STOREHOUSE;
 }

@@ -18,7 +18,7 @@ public:
 
     virtual int size() = 0;
 
-    virtual std::deque view()= 0;
+    virtual std::deque<Package> view()= 0;
 
 };
 
