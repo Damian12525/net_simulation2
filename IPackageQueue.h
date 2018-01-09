@@ -5,21 +5,21 @@
 #include "Package.h"
 #include "QueueType.h"
 #include "IPackageDepot.h"
+#include "PackageQueue.h"
 
 class IPackageQueue : public IPackageDepot
 {
 
 
 public:
-    virtual void push(Package to_push);
 
-    virtual void pop(Package to_pop);
-    bool empty();
+    virtual QueueType getQueueType() = 0;
+    virtual void pop(Package to_pop) = 0;
 
-    virtual int size();
-    std::deque view();
-    virtual QueueType getQueueType();
-
+    virtual void push(Package to_push) = 0;
+    virtual bool isEmpty() = 0;
+    virtual int size()= 0;
+    virtual std::deque view()= 0;
 
 };
 

@@ -8,21 +8,31 @@
 #include "Package.h"
 #include "IPackageQueue.h"
 
-class PackageQueue : public IPackageQueue {
+class PackageQueue : private IPackageQueue {
 
 
-    QueueType _queueType;
+protected:
+
     std::deque _deque;   // double ended queue
-    std::function<Package()> _popFunction;
+
+    //std::function<Package()> _popFunction;
+
+public:
 
     PackageQueue (QueueType _type);
+
+    PackageQueue();
+
+    int size();
+
+
     void view(Package* _package_array);
     bool isEmpty();
 
-    virtual QueueType getQueueType()= 0;
-    virtual int size()= 0;
-    virtual void push(Package _package)= 0;
-    virtual void pop(Package _package)= 0;
+    virtual QueueType getQueueType() = 0;
+
+    void push(Package _package);
+    virtual void pop(Package _package) = 0;
 };
 
 

@@ -3,6 +3,11 @@
 
 Storehouse::Storehouse(ElementID _id) {
 
+    id = _id;
+
+    depot = new IPackageDepot();
+
+
 }
 
 

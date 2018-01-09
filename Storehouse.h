@@ -3,6 +3,7 @@
 
 
 
+#include <memory>
 #include "IPackageDepot.h"
 #include "Package.h"
 #include "types.h"
@@ -11,7 +12,8 @@
 class Storehouse : public IPackageReceiver {
 
     ElementID id;
-    IPackageDepot* depot;
+    std::unique_ptr<IPackageDepot> depot;
+
 
 public:
     Storehouse(ElementID _id);

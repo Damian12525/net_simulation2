@@ -9,7 +9,7 @@
 #include "IPackageQueue.h"
 #include "Package.h"
 #include "ReceiverType.h"
-
+#include <memory>
 #include "types.h"
 #include "IPackageReceiver.h"
 
@@ -20,6 +20,7 @@ private:
     TimeOffset processingDuration;
     Time packageProcessingStartTime;
     IPackageQueue* queue;
+    std::vector<Package> currentlyProcessedPackage;
 
 public:
     Worker(int ElementID, TimeOffset, IPackageQueue* _packageQueue);

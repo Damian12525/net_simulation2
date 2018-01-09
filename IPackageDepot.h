@@ -4,13 +4,21 @@
 
 #include <queue>
 #include "Package.h"
+#include "IPackageQueue.h"
 
-class IPackageDepot {
+class IPackageDepot{
 
-    void push(Package _package);
-    bool empty();
-    int size();
-    std::deque view();
+
+public:
+    IPackageDepot() = default;
+
+    virtual void push(Package _package)=0;
+
+//    virtual bool empty();
+
+//    virtual int size();
+
+//    virtual std::deque view();
 
 };
 

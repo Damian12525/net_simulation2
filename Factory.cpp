@@ -1,6 +1,6 @@
 #include "Factory.h"
 
-std::vector<Ramp> Factory::getRamps() {
+std::list<Ramp> Factory::getRamps() {
     return ramps;
 }
 
@@ -10,7 +10,7 @@ void Factory::addRamp(Ramp _ramp) {
 
 
 
-std::vector<Worker> Factory::getWorkers() {
+std::list<Worker> Factory::getWorkers() {
     return workers;
 }
 
@@ -20,7 +20,7 @@ void Factory::addWorker(Worker _worker) {
 
 
 
-std::vector<Storehouse> Factory::getStorehouses() {
+std::list<Storehouse> Factory::getStorehouses() {
     return storehouses;
 }
 
