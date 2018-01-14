@@ -1,11 +1,14 @@
 #include "IntervalReportNotifier.h"
 
 IntervalReportNotifier::IntervalReportNotifier(TimeOffset _interval) {
-
+    interval = _interval;
 }
 
 bool IntervalReportNotifier::shouldGenerateReport(Time _time) {
-    return false;
+    if(_time%interval == 0)
+        return true;
+    else
+        return false;
 }
 
 
