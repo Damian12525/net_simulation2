@@ -3,6 +3,7 @@
 
 
 #include <map>
+#include <vector>
 #include "IPackageReceiver.h"
 
 class ReceiverPreferences {
@@ -11,12 +12,12 @@ class ReceiverPreferences {
 
 public:
     std::map<IPackageReceiver*,double > getProbabilities();
-    void setProbabilities (std::map<IPackageReceiver*,double >);
+    void setProbabilities (std::map<IPackageReceiver*,double > _probabilities);
     void addReceiver(IPackageReceiver* new_receiver);
     void addReceiverWithProbability(IPackageReceiver* new_receiver, double probability);
-    void removeReceiver (IPackageReceiver*);
+    void removeReceiver (IPackageReceiver* to_remove);
     IPackageReceiver* drawReceiver();
-    std::pair<IPackageReceiver*, double >* view ();
+    std::vector<std::pair<IPackageReceiver*, double >> view ();
 
 
 };

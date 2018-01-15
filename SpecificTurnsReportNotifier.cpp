@@ -2,12 +2,7 @@
 
 //SpecificTurnsReportNotifier::SpecificTurnsReportNotifier(std::set<Time> _turns) {}
 
-SpecificTurnsReportNotifier::SpecificTurnsReportNotifier() {
-    turns.insert(1);
-    turns.insert(4);
-    turns.insert(5);
-    //przepraszam za styl, ale nie znalazłem żadnego tutorialu jak inicjalizować std::set
-}
+
 
 bool SpecificTurnsReportNotifier::shouldGenerateReport(Time _time) {
     std::set<Time>::iterator it = turns.find(_time);
@@ -15,5 +10,10 @@ bool SpecificTurnsReportNotifier::shouldGenerateReport(Time _time) {
         return true;
     else
        return false;
+}
+
+SpecificTurnsReportNotifier::SpecificTurnsReportNotifier(std::set<Time> _turns) {
+    turns = _turns;
+
 }
 

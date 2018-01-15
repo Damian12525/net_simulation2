@@ -10,8 +10,8 @@ class SpecificTurnsReportNotifier : public IReportNotifier{
     std::set<Time> turns;
 
 public:
-    SpecificTurnsReportNotifier();
-    //TODO xD SpecificTurnsReportNotifier(std::set<Time> _turns);
+    SpecificTurnsReportNotifier(std::set<Time> _turns);
+
 
     bool shouldGenerateReport(Time _time) override;
 

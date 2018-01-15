@@ -11,8 +11,9 @@
 #include <memory>
 #include "types.h"
 #include "IPackageReceiver.h"
+#include "PackageSender.h"
 
-class Worker : public IPackageReceiver
+class Worker : public IPackageReceiver, public PackageSender
 {
 private:
     ElementID workerID;
@@ -26,11 +27,11 @@ public:
     void doWork();
     TimeOffset getProcessingDuration();
     Time getProcessingStartTime();
-    ElementID getId();
+    ElementID getId() override;
 
-    void receivePackage(Package _package);
-    Package* viewDepot();
-    ReceiverType getReceiverType();
+    void receivePackage(Package _package) override;
+    Package* viewDepot() override;
+    ReceiverType getReceiverType() override;
 
 };
 
