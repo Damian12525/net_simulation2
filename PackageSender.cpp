@@ -7,7 +7,7 @@ PackageSender::PackageSender(ElementID _senderID) {
 
 }
 
-ReceiverPreferences PackageSender::getReceiverPreferences() {
+ReceiverPreferences& PackageSender::getReceiverPreferences() {
     return receiverPreferences;
 }
 

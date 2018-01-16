@@ -50,6 +50,22 @@ Factory loadFactoryStructure(std::istream& inputStream)
         } else if (std::regex_match(line, m, link_regex)) {
 
 
+            if (m[1].str() == "worker")
+            {
+
+                Worker worker = new_factory.getWorker(std::stoi(m[2].str()));
+
+
+
+
+
+            }
+
+
+
+
+
+
         }
 
 

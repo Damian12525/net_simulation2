@@ -30,6 +30,10 @@ public:
     void addStorehouse(Storehouse _storehouse);
     void removeStorehouse (ElementID _storehouseID);
 
+    //Coby latwiej sie zylo
+
+    Worker& getWorker(ElementID _id);
+
 
 
 

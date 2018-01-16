@@ -40,4 +40,16 @@ void Factory::removeRamp(ElementID _rampID) {
 
 }
 
+Worker &Factory::getWorker(ElementID _id) {
+
+    for(auto w : workers)
+    {
+        if (w.getId() == _id)
+            return w;
+
+    }
+
+    return <#initializer#>;
+}
+
 

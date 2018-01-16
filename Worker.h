@@ -13,7 +13,7 @@
 #include "IPackageReceiver.h"
 #include "PackageSender.h"
 
-class Worker : public IPackageReceiver, public PackageSender
+class Worker : public IPackageReceiver, private PackageSender
 {
 private:
     ElementID workerID;

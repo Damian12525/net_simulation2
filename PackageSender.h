@@ -16,7 +16,7 @@ class PackageSender {
 public:
 
     PackageSender (ElementID _senderID);
-    ReceiverPreferences getReceiverPreferences();
+    ReceiverPreferences& getReceiverPreferences();
     void setReceiverPrefereneces (ReceiverPreferences _preferences_to_set);
     void sendPackage();
     std::vector<Package> getSendingBuffer();
