@@ -9,4 +9,6 @@ void simulate(Factory _factory, std::function<void (Factory&, TimeOffset)>);
 
 void generateStructureReport( Factory _factory, std::ostream & out);
 
+Factory loadFactoryStructure(std::istream& inputStream);
+
 #endif //NET_SIMULATION_FUNCTIONS_H
