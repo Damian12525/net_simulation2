@@ -7,6 +7,23 @@ Worker::Worker(int ElementID, TimeOffset, IPackageQueue *_packageQueue) {
 
 void Worker::doWork() {
 
+    if(currentlyProcessedPackage.empty() == 1)
+    {
+        //pobranie paczki do aktualnie przetwarzanej
+        currentlyProcessedPackage.push_back(queue.pop());
+
+        //TRZEBA ZMIENIĆ (globalTime = obecny czas symulacji)
+        packageProcessingStartTime = globalTime;
+
+        return;
+    }
+
+    if(globalTime - packageProcessingStartTime >= processingDuration)
+    {
+        currentlyProcessedPackage.pop_back();
+        sendPackage();
+    }
+
 }
 
 TimeOffset Worker::getProcessingDuration() {
@@ -25,6 +42,7 @@ ElementID Worker::getId() {
 
 void Worker::receivePackage(Package _package) {
 
+    queue.push_back(_package);
 }
 
 Package *Worker::viewDepot() {

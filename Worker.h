@@ -1,10 +1,5 @@
-
-
 #ifndef NET_SIMULATION_WORKER_H
 #define NET_SIMULATION_WORKER_H
-
-
-
 
 #include "IPackageQueue.h"
 #include "ReceiverType.h"
@@ -12,12 +7,14 @@
 #include "types.h"
 #include "IPackageReceiver.h"
 #include "PackageSender.h"
+#include <queue>
+#include "PackageQueue.h"
 
 class Worker : public IPackageReceiver, private PackageSender
 {
 private:
     ElementID workerID;
-    TimeOffset processingDuration;
+    TimeOffset processinsgDuration;
     Time packageProcessingStartTime;
     IPackageQueue* queue;
     std::vector<Package> currentlyProcessedPackage;
@@ -34,6 +31,5 @@ public:
     ReceiverType getReceiverType() override;
 
 };
-
 
 #endif //NET_SIMULATION_WORKER_H
