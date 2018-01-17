@@ -16,8 +16,8 @@ ElementID Storehouse::getId() {
     return id;
 }
 
-void Storehouse::receivePackage(Package to_receive) {
-
+void Storehouse::receivePackage(Package packageToReceive) {
+    depot->push(packageToReceive);
 }
 
 Package *Storehouse::viewDepot() {

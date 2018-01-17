@@ -19,7 +19,7 @@ public:
     explicit Storehouse(ElementID _id);
     ElementID getId() override;
 
-    void receivePackage(Package to_receive) override;
+    void receivePackage(Package packageToReceive) override;
 
     Package* viewDepot() override;
     ReceiverType getReceiverType() override;
