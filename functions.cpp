@@ -29,7 +29,7 @@ Factory loadFactoryStructure(std::istream& inputStream)
             IPackageQueue *new_queue;
             if (m[3].str() == "FIFO")
                 new_queue = new PackageQueue(QueueType::FIFO);
-            else if (m[3].str() == "LIFO")
+            else
                 new_queue = new PackageQueue(QueueType::LIFO);
 
             Worker new_worker(std::stoi(m[1].str()), std::stoi(m[2].str()), new_queue);
@@ -49,17 +49,23 @@ Factory loadFactoryStructure(std::istream& inputStream)
 
         } else if (std::regex_match(line, m, link_regex)) {
 
+            ReceiverPreferences preferences;
 
             if (m[1].str() == "worker")
-            {
+                preferences = new_factory.getWorker(std::stoi(m[2].str())).getReceiverPreferences();
+            else
+                preferences = new_factory.getRamp(std::stoi(m[2].str())).getReceiverPreferences();
 
-                Worker worker = new_factory.getWorker(std::stoi(m[2].str()));
+            IPackageReceiver *receiver;
 
 
+            if (m[3].str() == "worker")
+                receiver = &new_factory.getWorker(std::stoi(m[2].str()));
+            else
+                receiver = &new_factory.getStorehouse(std::stoi(m[2].str()));
 
+            preferences.addReceiverWithProbability(receiver,std::stod(m[2].str()));
 
-
-            }
 
 
 
