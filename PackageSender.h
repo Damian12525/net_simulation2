@@ -6,6 +6,7 @@
 
 #include <vector>
 #include "ReceiverPreferences.h"
+#include <map>
 
 
 

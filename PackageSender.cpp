@@ -18,6 +18,13 @@ void PackageSender::setReceiverPrefereneces(ReceiverPreferences _preferences_to_
 
 void PackageSender::sendPackage() {
 
+    IPackageReceiver* pointerToReceiver = ReceiverPreferences.drawReceiver();
+
+    if(sendingBuffer.empty() == 0)
+    {
+        pointerToReceiver->receivePackage(sendingBuffer.pop_back());
+    }
+
 }
 
 std::vector<Package> PackageSender::getSendingBuffer() {

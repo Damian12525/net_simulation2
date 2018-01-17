@@ -95,6 +95,8 @@ vector
 -
 ReceiverPreferences.h
 /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/ReceiverPreferences.h
+map
+-
 
 /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/QueueType.h
 
@@ -173,6 +175,8 @@ PackageSender.h
 /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageSender.h
 queue
 -
+PackageQueue.h
+/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageQueue.h
 
 /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/functions.cpp
 functions.h

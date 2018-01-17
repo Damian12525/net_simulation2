@@ -7,6 +7,7 @@ CMakeFiles/net_simulation2.dir/Factory.cpp.o: ../IPackageDepot.h
 CMakeFiles/net_simulation2.dir/Factory.cpp.o: ../IPackageQueue.h
 CMakeFiles/net_simulation2.dir/Factory.cpp.o: ../IPackageReceiver.h
 CMakeFiles/net_simulation2.dir/Factory.cpp.o: ../Package.h
+CMakeFiles/net_simulation2.dir/Factory.cpp.o: ../PackageQueue.h
 CMakeFiles/net_simulation2.dir/Factory.cpp.o: ../PackageSender.h
 CMakeFiles/net_simulation2.dir/Factory.cpp.o: ../QueueType.h
 CMakeFiles/net_simulation2.dir/Factory.cpp.o: ../Ramp.h
@@ -84,6 +85,7 @@ CMakeFiles/net_simulation2.dir/Worker.cpp.o: ../IPackageDepot.h
 CMakeFiles/net_simulation2.dir/Worker.cpp.o: ../IPackageQueue.h
 CMakeFiles/net_simulation2.dir/Worker.cpp.o: ../IPackageReceiver.h
 CMakeFiles/net_simulation2.dir/Worker.cpp.o: ../Package.h
+CMakeFiles/net_simulation2.dir/Worker.cpp.o: ../PackageQueue.h
 CMakeFiles/net_simulation2.dir/Worker.cpp.o: ../PackageSender.h
 CMakeFiles/net_simulation2.dir/Worker.cpp.o: ../QueueType.h
 CMakeFiles/net_simulation2.dir/Worker.cpp.o: ../ReceiverPreferences.h
