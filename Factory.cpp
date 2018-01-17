@@ -52,4 +52,24 @@ Worker &Factory::getWorker(ElementID _id) {
     return <#initializer#>;
 }
 
+Ramp &Factory::getRamp(ElementID _id) {
+    for(auto r : ramps )
+    {
+        if (r.getId() == _id)
+            return r;
+
+    }
+    return <#initializer#>;
+}
+
+Storehouse &Factory::getStorehouse(ElementID _id) {
+    for(auto s : storehouses)
+    {
+        if (s.getId() == _id)
+            return s;
+
+    }
+    return <#initializer#>;
+}
+
 

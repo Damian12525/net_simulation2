@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/monika/Pobrane/clion-2017.3.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/damian/clion-2017.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/monika/Pobrane/clion-2017.3.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/damian/clion-2017.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2
+CMAKE_SOURCE_DIR = /home/damian/CLionProjects/net_simulation3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/damian/CLionProjects/net_simulation3/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/net_simulation2.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/net_simulation2.dir/flags.make
 
 CMakeFiles/net_simulation2.dir/Factory.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/Factory.cpp.o: ../Factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/net_simulation2.dir/Factory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/Factory.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/net_simulation2.dir/Factory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/Factory.cpp.o -c /home/damian/CLionProjects/net_simulation3/Factory.cpp
 
 CMakeFiles/net_simulation2.dir/Factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/Factory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Factory.cpp > CMakeFiles/net_simulation2.dir/Factory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/Factory.cpp > CMakeFiles/net_simulation2.dir/Factory.cpp.i
 
 CMakeFiles/net_simulation2.dir/Factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/Factory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Factory.cpp -o CMakeFiles/net_simulation2.dir/Factory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/Factory.cpp -o CMakeFiles/net_simulation2.dir/Factory.cpp.s
 
 CMakeFiles/net_simulation2.dir/Factory.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/net_simulation2.dir/Factory.cpp.o.provides.build: CMakeFiles/net_simu
 
 CMakeFiles/net_simulation2.dir/functions.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/functions.cpp.o: ../functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/net_simulation2.dir/functions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/functions.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/net_simulation2.dir/functions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/functions.cpp.o -c /home/damian/CLionProjects/net_simulation3/functions.cpp
 
 CMakeFiles/net_simulation2.dir/functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/functions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/functions.cpp > CMakeFiles/net_simulation2.dir/functions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/functions.cpp > CMakeFiles/net_simulation2.dir/functions.cpp.i
 
 CMakeFiles/net_simulation2.dir/functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/functions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/functions.cpp -o CMakeFiles/net_simulation2.dir/functions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/functions.cpp -o CMakeFiles/net_simulation2.dir/functions.cpp.s
 
 CMakeFiles/net_simulation2.dir/functions.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/net_simulation2.dir/functions.cpp.o.provides.build: CMakeFiles/net_si
 
 CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.o: ../IntervalReportNotifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IntervalReportNotifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.o -c /home/damian/CLionProjects/net_simulation3/IntervalReportNotifier.cpp
 
 CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IntervalReportNotifier.cpp > CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/IntervalReportNotifier.cpp > CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.i
 
 CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IntervalReportNotifier.cpp -o CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/IntervalReportNotifier.cpp -o CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.s
 
 CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/net_simulation2.dir/IntervalReportNotifier.cpp.o.provides.build: CMak
 
 CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.o: ../IPackageReceiver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IPackageReceiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.o -c /home/damian/CLionProjects/net_simulation3/IPackageReceiver.cpp
 
 CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IPackageReceiver.cpp > CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/IPackageReceiver.cpp > CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.i
 
 CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IPackageReceiver.cpp -o CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/IPackageReceiver.cpp -o CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.s
 
 CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/net_simulation2.dir/IPackageReceiver.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.o: ../IReportNotifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IReportNotifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.o -c /home/damian/CLionProjects/net_simulation3/IReportNotifier.cpp
 
 CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IReportNotifier.cpp > CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/IReportNotifier.cpp > CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.i
 
 CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IReportNotifier.cpp -o CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/IReportNotifier.cpp -o CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.s
 
 CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/net_simulation2.dir/IReportNotifier.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/net_simulation2.dir/main.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/net_simulation2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/main.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/net_simulation2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/main.cpp.o -c /home/damian/CLionProjects/net_simulation3/main.cpp
 
 CMakeFiles/net_simulation2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/main.cpp > CMakeFiles/net_simulation2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/main.cpp > CMakeFiles/net_simulation2.dir/main.cpp.i
 
 CMakeFiles/net_simulation2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/main.cpp -o CMakeFiles/net_simulation2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/main.cpp -o CMakeFiles/net_simulation2.dir/main.cpp.s
 
 CMakeFiles/net_simulation2.dir/main.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/net_simulation2.dir/main.cpp.o.provides.build: CMakeFiles/net_simulat
 
 CMakeFiles/net_simulation2.dir/Package.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/Package.cpp.o: ../Package.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/net_simulation2.dir/Package.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/Package.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Package.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/net_simulation2.dir/Package.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/Package.cpp.o -c /home/damian/CLionProjects/net_simulation3/Package.cpp
 
 CMakeFiles/net_simulation2.dir/Package.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/Package.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Package.cpp > CMakeFiles/net_simulation2.dir/Package.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/Package.cpp > CMakeFiles/net_simulation2.dir/Package.cpp.i
 
 CMakeFiles/net_simulation2.dir/Package.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/Package.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Package.cpp -o CMakeFiles/net_simulation2.dir/Package.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/Package.cpp -o CMakeFiles/net_simulation2.dir/Package.cpp.s
 
 CMakeFiles/net_simulation2.dir/Package.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/net_simulation2.dir/Package.cpp.o.provides.build: CMakeFiles/net_simu
 
 CMakeFiles/net_simulation2.dir/PackageQueue.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/PackageQueue.cpp.o: ../PackageQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/net_simulation2.dir/PackageQueue.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/PackageQueue.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/net_simulation2.dir/PackageQueue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/PackageQueue.cpp.o -c /home/damian/CLionProjects/net_simulation3/PackageQueue.cpp
 
 CMakeFiles/net_simulation2.dir/PackageQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/PackageQueue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageQueue.cpp > CMakeFiles/net_simulation2.dir/PackageQueue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/PackageQueue.cpp > CMakeFiles/net_simulation2.dir/PackageQueue.cpp.i
 
 CMakeFiles/net_simulation2.dir/PackageQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/PackageQueue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageQueue.cpp -o CMakeFiles/net_simulation2.dir/PackageQueue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/PackageQueue.cpp -o CMakeFiles/net_simulation2.dir/PackageQueue.cpp.s
 
 CMakeFiles/net_simulation2.dir/PackageQueue.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/net_simulation2.dir/PackageQueue.cpp.o.provides.build: CMakeFiles/net
 
 CMakeFiles/net_simulation2.dir/PackageSender.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/PackageSender.cpp.o: ../PackageSender.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/net_simulation2.dir/PackageSender.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/PackageSender.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageSender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/net_simulation2.dir/PackageSender.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/PackageSender.cpp.o -c /home/damian/CLionProjects/net_simulation3/PackageSender.cpp
 
 CMakeFiles/net_simulation2.dir/PackageSender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/PackageSender.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageSender.cpp > CMakeFiles/net_simulation2.dir/PackageSender.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/PackageSender.cpp > CMakeFiles/net_simulation2.dir/PackageSender.cpp.i
 
 CMakeFiles/net_simulation2.dir/PackageSender.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/PackageSender.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageSender.cpp -o CMakeFiles/net_simulation2.dir/PackageSender.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/PackageSender.cpp -o CMakeFiles/net_simulation2.dir/PackageSender.cpp.s
 
 CMakeFiles/net_simulation2.dir/PackageSender.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/net_simulation2.dir/PackageSender.cpp.o.provides.build: CMakeFiles/ne
 
 CMakeFiles/net_simulation2.dir/Ramp.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/Ramp.cpp.o: ../Ramp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/net_simulation2.dir/Ramp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/Ramp.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Ramp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/net_simulation2.dir/Ramp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/Ramp.cpp.o -c /home/damian/CLionProjects/net_simulation3/Ramp.cpp
 
 CMakeFiles/net_simulation2.dir/Ramp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/Ramp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Ramp.cpp > CMakeFiles/net_simulation2.dir/Ramp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/Ramp.cpp > CMakeFiles/net_simulation2.dir/Ramp.cpp.i
 
 CMakeFiles/net_simulation2.dir/Ramp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/Ramp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Ramp.cpp -o CMakeFiles/net_simulation2.dir/Ramp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/Ramp.cpp -o CMakeFiles/net_simulation2.dir/Ramp.cpp.s
 
 CMakeFiles/net_simulation2.dir/Ramp.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/net_simulation2.dir/Ramp.cpp.o.provides.build: CMakeFiles/net_simulat
 
 CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.o: ../ReceiverPreferences.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/ReceiverPreferences.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.o -c /home/damian/CLionProjects/net_simulation3/ReceiverPreferences.cpp
 
 CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/ReceiverPreferences.cpp > CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/ReceiverPreferences.cpp > CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.i
 
 CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/ReceiverPreferences.cpp -o CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/ReceiverPreferences.cpp -o CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.s
 
 CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/net_simulation2.dir/ReceiverPreferences.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.o: ../SpecificTurnsReportNotifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/SpecificTurnsReportNotifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.o -c /home/damian/CLionProjects/net_simulation3/SpecificTurnsReportNotifier.cpp
 
 CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/SpecificTurnsReportNotifier.cpp > CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/SpecificTurnsReportNotifier.cpp > CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.i
 
 CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/SpecificTurnsReportNotifier.cpp -o CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/SpecificTurnsReportNotifier.cpp -o CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.s
 
 CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/net_simulation2.dir/SpecificTurnsReportNotifier.cpp.o.provides.build:
 
 CMakeFiles/net_simulation2.dir/Storehouse.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/Storehouse.cpp.o: ../Storehouse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/net_simulation2.dir/Storehouse.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/Storehouse.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Storehouse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/net_simulation2.dir/Storehouse.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/Storehouse.cpp.o -c /home/damian/CLionProjects/net_simulation3/Storehouse.cpp
 
 CMakeFiles/net_simulation2.dir/Storehouse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/Storehouse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Storehouse.cpp > CMakeFiles/net_simulation2.dir/Storehouse.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/Storehouse.cpp > CMakeFiles/net_simulation2.dir/Storehouse.cpp.i
 
 CMakeFiles/net_simulation2.dir/Storehouse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/Storehouse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Storehouse.cpp -o CMakeFiles/net_simulation2.dir/Storehouse.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/Storehouse.cpp -o CMakeFiles/net_simulation2.dir/Storehouse.cpp.s
 
 CMakeFiles/net_simulation2.dir/Storehouse.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/net_simulation2.dir/Storehouse.cpp.o.provides.build: CMakeFiles/net_s
 
 CMakeFiles/net_simulation2.dir/Worker.cpp.o: CMakeFiles/net_simulation2.dir/flags.make
 CMakeFiles/net_simulation2.dir/Worker.cpp.o: ../Worker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/net_simulation2.dir/Worker.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/Worker.cpp.o -c /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Worker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/net_simulation2.dir/Worker.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/net_simulation2.dir/Worker.cpp.o -c /home/damian/CLionProjects/net_simulation3/Worker.cpp
 
 CMakeFiles/net_simulation2.dir/Worker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/net_simulation2.dir/Worker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Worker.cpp > CMakeFiles/net_simulation2.dir/Worker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/damian/CLionProjects/net_simulation3/Worker.cpp > CMakeFiles/net_simulation2.dir/Worker.cpp.i
 
 CMakeFiles/net_simulation2.dir/Worker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/net_simulation2.dir/Worker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Worker.cpp -o CMakeFiles/net_simulation2.dir/Worker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/damian/CLionProjects/net_simulation3/Worker.cpp -o CMakeFiles/net_simulation2.dir/Worker.cpp.s
 
 CMakeFiles/net_simulation2.dir/Worker.cpp.o.requires:
 
@@ -429,7 +429,7 @@ net_simulation2: CMakeFiles/net_simulation2.dir/Storehouse.cpp.o
 net_simulation2: CMakeFiles/net_simulation2.dir/Worker.cpp.o
 net_simulation2: CMakeFiles/net_simulation2.dir/build.make
 net_simulation2: CMakeFiles/net_simulation2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable net_simulation2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable net_simulation2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/net_simulation2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -459,6 +459,6 @@ CMakeFiles/net_simulation2.dir/clean:
 .PHONY : CMakeFiles/net_simulation2.dir/clean
 
 CMakeFiles/net_simulation2.dir/depend:
-	cd /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2 /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2 /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug /home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/CMakeFiles/net_simulation2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damian/CLionProjects/net_simulation3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damian/CLionProjects/net_simulation3 /home/damian/CLionProjects/net_simulation3 /home/damian/CLionProjects/net_simulation3/cmake-build-debug /home/damian/CLionProjects/net_simulation3/cmake-build-debug /home/damian/CLionProjects/net_simulation3/cmake-build-debug/CMakeFiles/net_simulation2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/net_simulation2.dir/depend
 

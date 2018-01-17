@@ -33,6 +33,8 @@ public:
     //Coby latwiej sie zylo
 
     Worker& getWorker(ElementID _id);
+    Ramp& getRamp(ElementID _id);
+    Storehouse& getStorehouse(ElementID _id);
 
 
 

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug"/>
+				<Option working_dir="/home/damian/CLionProjects/net_simulation3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug"/>
+				<Option working_dir="/home/damian/CLionProjects/net_simulation3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug"/>
+				<Option working_dir="/home/damian/CLionProjects/net_simulation3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="net_simulation2">
-				<Option output="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/net_simulation2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug"/>
+				<Option output="/home/damian/CLionProjects/net_simulation3/cmake-build-debug/net_simulation2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damian/CLionProjects/net_simulation3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 net_simulation2"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 net_simulation2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="net_simulation2/fast">
-				<Option output="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/net_simulation2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug"/>
+				<Option output="/home/damian/CLionProjects/net_simulation3/cmake-build-debug/net_simulation2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/damian/CLionProjects/net_simulation3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,110 +77,110 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 net_simulation2/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 net_simulation2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/damian/CLionProjects/net_simulation3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Factory.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/Factory.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Factory.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/Factory.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IPackageDepot.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/IPackageDepot.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IPackageQueue.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/IPackageQueue.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IPackageReceiver.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/IPackageReceiver.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IPackageReceiver.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/IPackageReceiver.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IReportNotifier.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/IReportNotifier.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IReportNotifier.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/IReportNotifier.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IntervalReportNotifier.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/IntervalReportNotifier.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/IntervalReportNotifier.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/IntervalReportNotifier.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Package.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/Package.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Package.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/Package.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageQueue.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/PackageQueue.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageQueue.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/PackageQueue.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageSender.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/PackageSender.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/PackageSender.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/PackageSender.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/QueueType.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/QueueType.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Ramp.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/Ramp.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Ramp.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/Ramp.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/ReceiverPreferences.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/ReceiverPreferences.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/ReceiverPreferences.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/ReceiverPreferences.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/ReceiverType.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/ReceiverType.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/SpecificTurnsReportNotifier.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/SpecificTurnsReportNotifier.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/SpecificTurnsReportNotifier.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/SpecificTurnsReportNotifier.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Storehouse.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/Storehouse.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Storehouse.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/Storehouse.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Worker.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/Worker.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/Worker.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/Worker.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/functions.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/functions.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/functions.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/functions.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/main.cpp">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/main.cpp">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/types.h">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/types.h">
 			<Option target="net_simulation2"/>
 		</Unit>
-		<Unit filename="/home/monika/Pulpit/GIT_REPOSITORY/net_simulation2/CMakeLists.txt">
+		<Unit filename="/home/damian/CLionProjects/net_simulation3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
